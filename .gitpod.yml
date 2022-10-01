@@ -2,6 +2,8 @@
 # Please adjust to your needs (see https://www.gitpod.io/docs/config-gitpod-file)
 # and commit this file to your remote git repository to share the goodness with others.
 
+# yaml is a superset of JSON, so you can use JSON syntax in YAML files. However, we recommend using YAML syntax, as it is more readable. You can use a YAML validator to check your syntax. For example, http://www.yamllint.com/ or http://www.yamllint.com/ is a good online YAML validator. 
+
 tasks:
   - init: yarn install && yarn run build
     command: yarn run start
