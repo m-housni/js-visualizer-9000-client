@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import uuid from 'uuid/v4';
+import uuid from 'uuid/v4'; 
 
 // eslint-disable-next-line no-unused-vars
-import _ from 'lodash';
+import _ from 'lodash'; // lodash is a library that provides a bunch of useful functions for working with arrays
 
 // NOTE: We're using a copied version of `notistack` for now, since the version
 //       that is currently published to NPM doesn't provide the `closeSnackbar`
@@ -18,8 +18,8 @@ import DEFAULT_CODE from './assets/defaultCode';
 
 const pause = millis => new Promise(resolve => setTimeout(resolve, millis));
 
-const isPlayableEvent = ({ type }) =>
-  [
+const isPlayableEvent = ({ type }) => {
+  const events = [
     'EnterFunction',
     'ExitFunction',
     'EnqueueMicrotask',
@@ -31,7 +31,9 @@ const isPlayableEvent = ({ type }) =>
     'ConsoleWarn',
     'ConsoleError',
     'ErrorFunction',
-  ].includes(type);
+  ]
+  events.includes(type);
+}
 
 const PRETTY_MUCH_INFINITY = 9999999999;
 
