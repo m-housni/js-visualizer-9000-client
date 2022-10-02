@@ -42,6 +42,7 @@ class App extends Component {
     // tasks: _.range(15).map(id => ({ id, name: 'setTimeout' })),
     // microtasks: _.range(15).map(id => ({ id, name: 'resolve' })),
     // frames: _.range(20).map(id => ({ id, name: 'foo()' })),
+    // _.range(10) = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
     tasks: [],
     microtasks: [],
     frames: [],
