@@ -3,7 +3,8 @@ import React from 'react';
 
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 
-import { createMuiTheme } from '@material-ui/core/styles';
+// material-ui is a set of React components that implement Google's Material Design specification.
+import { createMuiTheme } from '@material-ui/core/styles'; 
 import yellow from '@material-ui/core/colors/yellow';
 import blue from '@material-ui/core/colors/blue';
 import blueGrey from '@material-ui/core/colors/blueGrey';
