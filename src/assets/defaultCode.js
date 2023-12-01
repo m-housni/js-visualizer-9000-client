@@ -1,3 +1,6 @@
+/**
+ * This is the default code that is loaded when the app is first opened.
+ */
 export default `
 function logA() { console.log('A') }
 function logB() { console.log('B') }
